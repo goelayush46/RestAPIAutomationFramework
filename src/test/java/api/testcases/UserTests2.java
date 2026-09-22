@@ -73,7 +73,7 @@ public class UserTests2 {
 		response.then().log().all();
 		
 		AssertJUnit.assertEquals(response.getStatusCode(), 200);
-		logger.info("Delete User Executed");
+		logger.info("Delete User Executed. And User Deleted.");
 	}
 	
 }
